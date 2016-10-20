@@ -1,0 +1,30 @@
+TEST 1::
+Vertices 5000:
+edges:      0  CPU time:       46
+edges:   1000  CPU time:       10
+edges:   5000  CPU time:     1804
+edges:  10000  CPU time:     2488
+edges:  50000  CPU time:     5422
+edges: 100000  CPU time:     9107
+Vertices 10000:
+edges:      0  CPU time:        0
+edges:   1000  CPU time:        1
+edges:   5000  CPU time:     1606
+edges:  10000  CPU time:     2170
+edges:  50000  CPU time:     4683
+edges: 100000  CPU time:     8492
+
+
+TEST2::
+Vertices 5000:
+edges:   1000  CPU time:     8258921
+edges:   5000  CPU time:  1602210039
+edges:  10000  CPU time:  2246399702
+edges:  50000  CPU time:  4654152949
+edges: 100000  CPU time:  7548488015
+Vertices 10000:
+edges:   1000  CPU time:      951017
+edges:   5000  CPU time:  1311157623
+edges:  10000  CPU time:  2144158234
+edges:  50000  CPU time:  4605386628
+edges: 100000  CPU time:  8646075228
