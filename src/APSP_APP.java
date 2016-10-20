@@ -15,6 +15,7 @@ public class APSP_APP {
 				System.out.format("edges: %6d  CPU time: %8d\n",size[i],end-start);
 			}
 		}
+		demo();
 	}
 	public static void demo(){
 		g1 = new graph(5000, 10000);
