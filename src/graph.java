@@ -103,4 +103,11 @@ public class graph {
 			System.out.println();
 		}
 	}
+	public boolean check_if_connect(){
+		for(int i = 0; i < this.vertices; i++)
+			for(int j = 0; j < this.vertices; j++)
+				if(i!=j && min_matrix[i][j] == 0)
+					return false;
+		return true;
+	}
 }
